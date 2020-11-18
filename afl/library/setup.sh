@@ -1,5 +1,7 @@
-export CC=/home/bjorn/afl/afl-gcc
-export CXX=/home/bjorn/afl/afl-g++
+afl_path = "/home/bjorn/afl" 
+
+export CC="$afl_path/afl-gcc" 
+export CXX="$afl_path/afl-g++" 
 cmake ../
 make -j 2
 
