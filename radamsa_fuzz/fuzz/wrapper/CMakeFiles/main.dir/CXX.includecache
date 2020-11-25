@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michiel/fuzz/wrapper/main.cpp
+iostream
+-
+cstring
+-
+lunasvg/svgdocument.h
+/home/michiel/fuzz/wrapper/lunasvg/svgdocument.h
+

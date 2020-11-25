@@ -1,0 +1,2 @@
+cmake ./ -Wno-dev
+make

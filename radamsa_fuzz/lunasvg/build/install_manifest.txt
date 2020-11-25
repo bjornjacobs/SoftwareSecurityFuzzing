@@ -1,0 +1,4 @@
+/usr/local/include/lunasvg/svgdocument.h
+/usr/local/include/lunasvg/svgelement.h
+/usr/local/include/lunasvg/svgelementiter.h
+/usr/local/lib/liblunasvg.a
