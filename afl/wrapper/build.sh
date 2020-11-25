@@ -1,6 +1,6 @@
 afl_path = "/home/bjorn/afl" 
 
-export CC="$afl_path/afl-gcc" 
-export CXX="$afl_path/afl-g++" 
+export CC=/root/afl-2.52b/afl-gcc
+export CXX=/root/afl-2.52b/afl-g++ 
 cmake ./
 make
