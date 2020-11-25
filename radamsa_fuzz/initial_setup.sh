@@ -1,5 +1,5 @@
 cd radamsa
-make install
+sudo make install
 cd ..
 cd wrapper
 chmod +x main
