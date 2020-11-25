@@ -3,3 +3,5 @@ radamsa_fuzz/fuzz/hangs/
 radamsa_fuzz/fuzz/crashes/
 radamsa_fuzz/fuzz/wrapper/CMakeFiles/
 radamsa_fuzz/fuzz/CMakeCache.txt
+afl/output_dir/
+afl/wrapper/CMakeFiles/
