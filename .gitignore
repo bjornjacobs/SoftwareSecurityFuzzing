@@ -5,3 +5,4 @@ radamsa_fuzz/fuzz/wrapper/CMakeFiles/
 radamsa_fuzz/fuzz/CMakeCache.txt
 afl/output_dir/
 afl/wrapper/CMakeFiles/
+afl/wrapper/CMakeCache.txt
