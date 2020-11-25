@@ -1,0 +1,5 @@
+<svg viewBox='0 0 100 100' xmlns='http:/org/2000/svg'>
+  <rect fill="#039" x="0" y="3" height="95" width="95" rx="15"/>
+  <path d='M20,56L19,35C19,30,27,20, 3,21L55,21A30,30,0' stroke-width='5px,0,1,20,56Z' fill='#3L9' stroke='#369' stroke-linejoin='round' stroke-width='11111111111111115px'/>
+  <path d='M17,67A37,37,0,0,0,67,18A36,36,0,1,1,17,67' fill='#FFF'/>
+</svg>
