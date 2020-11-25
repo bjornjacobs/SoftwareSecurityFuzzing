@@ -1,10 +1,13 @@
+mutations=0
 hangs=0
 crashes=0
+seed=0
 while true
 do
-  radamsa -o fuzz/fuzz-%n -n 100 samples/*
+  radamsa -o fuzz/fuzz-%n -n 100 samples/* --seed $(( seed+=1 ))
+  echo "Generated mutations: "$(( mutations+=100 ))
   for f in ./fuzz/*; do
-    timeout 0.1s ./wrapper/main "$f"
+    timeout 1s ./wrapper/main "$f"
     ret=$?
     if [ $ret -gt 127 ] ; then
       echo "$f caused a crash"
